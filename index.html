@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="Assets/css/main.css" />
-    <script src="Assets/js/app.js"></script>
+    <script src="Assets/js/site.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <input type="text" id="pokemonName" placeholder="Skriv et navn på en Pokémon" />
+    <button onclick="fetchData()">Fetch Pokémon</button>
+    <br />
+
+    <img src="" alt="Pokémon Kraft" id="pokemonKraft" display="none" />
+    <div id="output"></div>
+  </body>
 </html>
